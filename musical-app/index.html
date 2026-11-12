@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<!--Doctype es una sentencia que indica que voy a trabajar con un documento en HTML-->
+
+<html lang="es"> <!--Aqui inica mi página con la etiqueta de html-->
+<head><!--Aqui en el head esta todo lo que no es visible en la pagina pero lo hace funcional-->
+  <!--Con los metadatos puedo colocar caracteres especiales, dar informacion del seo para posicionamiento web-->
+  <meta charset="UTF-8">
+  <meta name="description" content="Musical para Navidad">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+
 <title>Musical Vane </title>
 </head>
 <body>
 
-<h1>Music Vane</h1>
-<p>I N D I E</p>
+    <div class="container-musical">
+            <img src="jazz.jpg" alt="Jazz" class="imagen-portada">
 
+            <h1>Musical Vane</h1>
+            <p class="pmusical">J A Z Z</p>  
+
+             <div class="lista-canciones">
+                <!--CANCIÓN 1-->
+                <div class="canciones">
+                    <p>1. Kiss of Life</p>
+                         <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Kiss of Life.mp3" type="audio/mpeg">
+                </audio>
+        
+
+                 </div>
+
+                 <!--CANCIÓN 2-->
+                <div class="canciones">
+                    <p>2. Billy Idol - Eyes Without A Face</p>
+                         <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Billy Idol - Eyes Without A Face.mp3" type="audio/mpeg">
+                </audio>
+        
+
+                 </div>
+
+                 <!--CANCIÓN 3-->
+                <div class="canciones">
+                    <p>2. I'm Not In Love</p>
+                         <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="10cc - I'm Not In Love.mp3" type="audio/mpeg">
+                </audio>
+        
+
+                 </div>
+
+
+                 
+
+                 
+            
+             </div>
 </body>
 </html>
