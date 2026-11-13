@@ -22,46 +22,60 @@
 
             <h1>Musical Vane</h1>
             <p class="pmusical">J A Z Z</p>  
-
-             <div class="lista-canciones">
-                <!--CANCIÓN 1-->
-                <div class="canciones">
+        <!--
+             <<div class="lista-canciones">
+                CANCIÓN 1-->
+                <!-- <div class="canciones">
                     <p>1. Kiss of Life</p>
                          <audio controls class="audio-player">
-                    <!-- Mp3 de prueba 1 -->
+                    Mp3 de prueba 1 
                     <source src="Kiss of Life.mp3" type="audio/mpeg">
                 </audio>
         
 
                  </div>
 
-                 <!--CANCIÓN 2-->
+                 CANCIÓN 2
                 <div class="canciones">
                     <p>2. Billy Idol - Eyes Without A Face</p>
                          <audio controls class="audio-player">
-                    <!-- Mp3 de prueba 1 -->
+                    Mp3 de prueba 1 
                     <source src="Billy Idol - Eyes Without A Face.mp3" type="audio/mpeg">
                 </audio>
         
 
                  </div>
 
-                 <!--CANCIÓN 3-->
-                <div class="canciones">
+               CANCIÓN 3-->
+                <!-- <div class="canciones">
                     <p>2. I'm Not In Love</p>
                          <audio controls class="audio-player">
-                    <!-- Mp3 de prueba 1 -->
+                    
                     <source src="10cc - I'm Not In Love.mp3" type="audio/mpeg">
                 </audio>
         
 
-                 </div>
+                 </div> -->
+                 <!-- UNA SOLA CAJA DE REPRODUCTOR -->
+      <div class="canciones">
+        <!-- 1. Le ponemos id="nombre-cancion" para que JS cambie el texto -->
+        <p id="nombre-cancion">Kiss of Life</p>
+        
+        <!--  Un solo audio con id="audio-player" -->
+        <audio id="audio-player" controls class="audio-player">
+          <source src="Kiss of Life.mp3" type="audio/mpeg">
+        </audio>
 
 
-                 
+        <!-- Agregamos los botones para avanzar y retroceder -->
+        <div class="controles">
+          <button id="btn-anterior">⏮ Anterior</button>
+          <button id="btn-siguiente">Siguiente ⏭</button>
+        </div>
+      </div>
 
-                 
-            
-             </div>
+
+             </div> -->
+<script src="script.js" ></script>
 </body>
 </html>
